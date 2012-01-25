@@ -16,6 +16,8 @@
 		489A7EB514CF933100191795 /* VLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7EB414CF933100191795 /* VLViewController.m */; };
 		489A7EB814CF933100191795 /* VLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EB614CF933100191795 /* VLViewController.xib */; };
 		489A7EBF14CF992F00191795 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EBE14CF992F00191795 /* AVFoundation.framework */; };
+		489A7EC214CFA2C300191795 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC014CFA2C300191795 /* Default.png */; };
+		489A7EC314CFA2C300191795 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC114CFA2C300191795 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		489A7EB414CF933100191795 /* VLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLViewController.m; sourceTree = "<group>"; };
 		489A7EB714CF933100191795 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VLViewController.xib; sourceTree = "<group>"; };
 		489A7EBE14CF992F00191795 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		489A7EC014CFA2C300191795 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		489A7EC114CFA2C300191795 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				489A7EB314CF933100191795 /* VLViewController.h */,
 				489A7EB414CF933100191795 /* VLViewController.m */,
 				489A7EB614CF933100191795 /* VLViewController.xib */,
+				489A7EC014CFA2C300191795 /* Default.png */,
+				489A7EC114CFA2C300191795 /* Default@2x.png */,
 				489A7EA814CF933100191795 /* Supporting Files */,
 			);
 			path = VeryLight;
@@ -154,6 +160,8 @@
 			files = (
 				489A7EAC14CF933100191795 /* InfoPlist.strings in Resources */,
 				489A7EB814CF933100191795 /* VLViewController.xib in Resources */,
+				489A7EC214CFA2C300191795 /* Default.png in Resources */,
+				489A7EC314CFA2C300191795 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
