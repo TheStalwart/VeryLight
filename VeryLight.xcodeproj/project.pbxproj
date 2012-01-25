@@ -18,6 +18,14 @@
 		489A7EBF14CF992F00191795 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EBE14CF992F00191795 /* AVFoundation.framework */; };
 		489A7EC214CFA2C300191795 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC014CFA2C300191795 /* Default.png */; };
 		489A7EC314CFA2C300191795 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC114CFA2C300191795 /* Default@2x.png */; };
+		489A7ED014CFA6DE00191795 /* icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC814CFA6DD00191795 /* icon_1024.png */; };
+		489A7ED114CFA6DE00191795 /* icon_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EC914CFA6DD00191795 /* icon_29.png */; };
+		489A7ED214CFA6DE00191795 /* icon_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECA14CFA6DD00191795 /* icon_50.png */; };
+		489A7ED314CFA6DE00191795 /* icon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECB14CFA6DD00191795 /* icon_57.png */; };
+		489A7ED414CFA6DE00191795 /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECC14CFA6DD00191795 /* icon_58.png */; };
+		489A7ED514CFA6DE00191795 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECD14CFA6DE00191795 /* icon_72.png */; };
+		489A7ED614CFA6DE00191795 /* icon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECE14CFA6DE00191795 /* icon_114.png */; };
+		489A7ED714CFA6DE00191795 /* icon_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 489A7ECF14CFA6DE00191795 /* icon_512.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,14 @@
 		489A7EBE14CF992F00191795 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		489A7EC014CFA2C300191795 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		489A7EC114CFA2C300191795 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		489A7EC814CFA6DD00191795 /* icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1024.png; sourceTree = "<group>"; };
+		489A7EC914CFA6DD00191795 /* icon_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_29.png; sourceTree = "<group>"; };
+		489A7ECA14CFA6DD00191795 /* icon_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_50.png; sourceTree = "<group>"; };
+		489A7ECB14CFA6DD00191795 /* icon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_57.png; sourceTree = "<group>"; };
+		489A7ECC14CFA6DD00191795 /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_58.png; sourceTree = "<group>"; };
+		489A7ECD14CFA6DE00191795 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72.png; sourceTree = "<group>"; };
+		489A7ECE14CFA6DE00191795 /* icon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_114.png; sourceTree = "<group>"; };
+		489A7ECF14CFA6DE00191795 /* icon_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_512.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +108,14 @@
 				489A7EB614CF933100191795 /* VLViewController.xib */,
 				489A7EC014CFA2C300191795 /* Default.png */,
 				489A7EC114CFA2C300191795 /* Default@2x.png */,
+				489A7EC914CFA6DD00191795 /* icon_29.png */,
+				489A7ECA14CFA6DD00191795 /* icon_50.png */,
+				489A7ECB14CFA6DD00191795 /* icon_57.png */,
+				489A7ECC14CFA6DD00191795 /* icon_58.png */,
+				489A7ECD14CFA6DE00191795 /* icon_72.png */,
+				489A7ECE14CFA6DE00191795 /* icon_114.png */,
+				489A7ECF14CFA6DE00191795 /* icon_512.png */,
+				489A7EC814CFA6DD00191795 /* icon_1024.png */,
 				489A7EA814CF933100191795 /* Supporting Files */,
 			);
 			path = VeryLight;
@@ -162,6 +186,14 @@
 				489A7EB814CF933100191795 /* VLViewController.xib in Resources */,
 				489A7EC214CFA2C300191795 /* Default.png in Resources */,
 				489A7EC314CFA2C300191795 /* Default@2x.png in Resources */,
+				489A7ED014CFA6DE00191795 /* icon_1024.png in Resources */,
+				489A7ED114CFA6DE00191795 /* icon_29.png in Resources */,
+				489A7ED214CFA6DE00191795 /* icon_50.png in Resources */,
+				489A7ED314CFA6DE00191795 /* icon_57.png in Resources */,
+				489A7ED414CFA6DE00191795 /* icon_58.png in Resources */,
+				489A7ED514CFA6DE00191795 /* icon_72.png in Resources */,
+				489A7ED614CFA6DE00191795 /* icon_114.png in Resources */,
+				489A7ED714CFA6DE00191795 /* icon_512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

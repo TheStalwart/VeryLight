@@ -9,7 +9,16 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
-	<array/>
+	<array>
+		<string>icon_57</string>
+		<string>icon_50</string>
+		<string>icon_29</string>
+		<string>icon_58</string>
+		<string>icon_72</string>
+		<string>icon_114</string>
+		<string>icon_512</string>
+		<string>icon_1024</string>
+	</array>
 	<key>CFBundleIdentifier</key>
 	<string>com.scwlab.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
