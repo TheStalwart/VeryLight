@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		489A7EA214CF933100191795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA114CF933100191795 /* UIKit.framework */; };
+		489A7EA414CF933100191795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA314CF933100191795 /* Foundation.framework */; };
+		489A7EA614CF933100191795 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA514CF933100191795 /* CoreGraphics.framework */; };
+		489A7EAC14CF933100191795 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EAA14CF933100191795 /* InfoPlist.strings */; };
+		489A7EAE14CF933100191795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7EAD14CF933100191795 /* main.m */; };
+		489A7EB214CF933100191795 /* VLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7EB114CF933100191795 /* VLAppDelegate.m */; };
+		489A7EB514CF933100191795 /* VLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 489A7EB414CF933100191795 /* VLViewController.m */; };
+		489A7EB814CF933100191795 /* VLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 489A7EB614CF933100191795 /* VLViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		489A7E9D14CF933100191795 /* VeryLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		489A7EA114CF933100191795 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		489A7EA314CF933100191795 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		489A7EA514CF933100191795 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		489A7EA914CF933100191795 /* VeryLight-Info.plist */ = {isa = PBXFileReference; path = "VeryLight-Info.plist"; sourceTree = "<group>"; };
+		489A7EAB14CF933100191795 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		489A7EAD14CF933100191795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		489A7EAF14CF933100191795 /* VeryLight-Prefix.pch */ = {isa = PBXFileReference; path = "VeryLight-Prefix.pch"; sourceTree = "<group>"; };
+		489A7EB014CF933100191795 /* VLAppDelegate.h */ = {isa = PBXFileReference; path = VLAppDelegate.h; sourceTree = "<group>"; };
+		489A7EB114CF933100191795 /* VLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLAppDelegate.m; sourceTree = "<group>"; };
+		489A7EB314CF933100191795 /* VLViewController.h */ = {isa = PBXFileReference; path = VLViewController.h; sourceTree = "<group>"; };
+		489A7EB414CF933100191795 /* VLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLViewController.m; sourceTree = "<group>"; };
+		489A7EB714CF933100191795 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VLViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		489A7E9A14CF933100191795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7EA214CF933100191795 /* UIKit.framework in Frameworks */,
+				489A7EA414CF933100191795 /* Foundation.framework in Frameworks */,
+				489A7EA614CF933100191795 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		489A7E9214CF933000191795 = {
+			isa = PBXGroup;
+			children = (
+				489A7EA714CF933100191795 /* VeryLight */,
+				489A7EA014CF933100191795 /* Frameworks */,
+				489A7E9E14CF933100191795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		489A7E9E14CF933100191795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				489A7E9D14CF933100191795 /* VeryLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		489A7EA014CF933100191795 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489A7EA114CF933100191795 /* UIKit.framework */,
+				489A7EA314CF933100191795 /* Foundation.framework */,
+				489A7EA514CF933100191795 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		489A7EA714CF933100191795 /* VeryLight */ = {
+			isa = PBXGroup;
+			children = (
+				489A7EB014CF933100191795 /* VLAppDelegate.h */,
+				489A7EB114CF933100191795 /* VLAppDelegate.m */,
+				489A7EB314CF933100191795 /* VLViewController.h */,
+				489A7EB414CF933100191795 /* VLViewController.m */,
+				489A7EB614CF933100191795 /* VLViewController.xib */,
+				489A7EA814CF933100191795 /* Supporting Files */,
+			);
+			path = VeryLight;
+			sourceTree = "<group>";
+		};
+		489A7EA814CF933100191795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				489A7EA914CF933100191795 /* VeryLight-Info.plist */,
+				489A7EAA14CF933100191795 /* InfoPlist.strings */,
+				489A7EAD14CF933100191795 /* main.m */,
+				489A7EAF14CF933100191795 /* VeryLight-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		489A7E9C14CF933100191795 /* VeryLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 489A7EBB14CF933100191795 /* Build configuration list for PBXNativeTarget "VeryLight" */;
+			buildPhases = (
+				489A7E9914CF933100191795 /* Sources */,
+				489A7E9A14CF933100191795 /* Frameworks */,
+				489A7E9B14CF933100191795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VeryLight;
+			productName = VeryLight;
+			productReference = 489A7E9D14CF933100191795 /* VeryLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		489A7E9414CF933000191795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 489A7E9714CF933000191795 /* Build configuration list for PBXProject "VeryLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 489A7E9214CF933000191795;
+			productRefGroup = 489A7E9E14CF933100191795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				489A7E9C14CF933100191795 /* VeryLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		489A7E9B14CF933100191795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7EAC14CF933100191795 /* InfoPlist.strings in Resources */,
+				489A7EB814CF933100191795 /* VLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		489A7E9914CF933100191795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				489A7EAE14CF933100191795 /* main.m in Sources */,
+				489A7EB214CF933100191795 /* VLAppDelegate.m in Sources */,
+				489A7EB514CF933100191795 /* VLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		489A7EAA14CF933100191795 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489A7EAB14CF933100191795 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		489A7EB614CF933100191795 /* VLViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				489A7EB714CF933100191795 /* en */,
+			);
+			name = VLViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		489A7EB914CF933100191795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		489A7EBA14CF933100191795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		489A7EBC14CF933100191795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeryLight/VeryLight-Prefix.pch";
+				INFOPLIST_FILE = "VeryLight/VeryLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		489A7EBD14CF933100191795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VeryLight/VeryLight-Prefix.pch";
+				INFOPLIST_FILE = "VeryLight/VeryLight-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		489A7E9714CF933000191795 /* Build configuration list for PBXProject "VeryLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7EB914CF933100191795 /* Debug */,
+				489A7EBA14CF933100191795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		489A7EBB14CF933100191795 /* Build configuration list for PBXNativeTarget "VeryLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				489A7EBC14CF933100191795 /* Debug */,
+				489A7EBD14CF933100191795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 489A7E9414CF933000191795 /* Project object */;
+}
