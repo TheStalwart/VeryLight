@@ -15,6 +15,8 @@
 @synthesize window = _window;
 @synthesize viewController = _viewController;
 
+@synthesize captureDevice = _captureDevice;
+
 - (void)dealloc
 {
     [_window release];
@@ -46,6 +48,18 @@
      Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
      If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
      */
+    
+    application.idleTimerDisabled = NO;
+    NSLog(@"Disable LED");
+    
+    if ( ! [self.captureDevice hasTorch]) {
+        NSLog(@"No LED, no problem");
+        return;
+    }
+    
+    [self.captureDevice lockForConfiguration:nil];
+    [self.captureDevice setTorchMode:AVCaptureTorchModeOn];
+    [self.captureDevice unlockForConfiguration];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -60,6 +74,23 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    application.idleTimerDisabled = YES;
+    NSLog(@"Enable LED");
+    
+    if ( ! self.captureDevice) {
+        self.captureDevice = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
+        NSLog(@"Got capture device");
+    }
+    
+    if ( ! [self.captureDevice hasTorch]) {
+        NSLog(@"No LED. That sucks");
+        return;
+    }
+    
+    [self.captureDevice lockForConfiguration:nil];
+    [self.captureDevice setTorchMode:AVCaptureTorchModeOn];
+    [self.captureDevice unlockForConfiguration];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
