@@ -21,6 +21,7 @@
 {
     [_window release];
     [_viewController release];
+    [_captureDevice release];
     [super dealloc];
 }
 
