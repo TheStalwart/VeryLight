@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4853269815BC7C6900821A1D /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 4853269715BC7C6900821A1D /* icon_144.png */; };
+		4853269E15BC82FA00821A1D /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4853269C15BC82F900821A1D /* Default@2x~ipad.png */; };
+		4853269F15BC82FA00821A1D /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4853269D15BC82F900821A1D /* Default~ipad.png */; };
 		489A7EA214CF933100191795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA114CF933100191795 /* UIKit.framework */; };
 		489A7EA414CF933100191795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA314CF933100191795 /* Foundation.framework */; };
 		489A7EA614CF933100191795 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA514CF933100191795 /* CoreGraphics.framework */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		4853269715BC7C6900821A1D /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
+		4853269C15BC82F900821A1D /* Default@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x~ipad.png"; sourceTree = "<group>"; };
+		4853269D15BC82F900821A1D /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
 		489A7E9D14CF933100191795 /* VeryLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A7EA114CF933100191795 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		489A7EA314CF933100191795 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -110,6 +114,8 @@
 				489A7EB614CF933100191795 /* VLViewController.xib */,
 				489A7EC014CFA2C300191795 /* Default.png */,
 				489A7EC114CFA2C300191795 /* Default@2x.png */,
+				4853269D15BC82F900821A1D /* Default~ipad.png */,
+				4853269C15BC82F900821A1D /* Default@2x~ipad.png */,
 				489A7EC914CFA6DD00191795 /* icon_29.png */,
 				489A7ECA14CFA6DD00191795 /* icon_50.png */,
 				489A7ECB14CFA6DD00191795 /* icon_57.png */,
@@ -198,6 +204,8 @@
 				489A7ED614CFA6DE00191795 /* icon_114.png in Resources */,
 				489A7ED714CFA6DE00191795 /* icon_512.png in Resources */,
 				4853269815BC7C6900821A1D /* icon_144.png in Resources */,
+				4853269E15BC82FA00821A1D /* Default@2x~ipad.png in Resources */,
+				4853269F15BC82FA00821A1D /* Default~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
