@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4853269815BC7C6900821A1D /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = 4853269715BC7C6900821A1D /* icon_144.png */; };
 		489A7EA214CF933100191795 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA114CF933100191795 /* UIKit.framework */; };
 		489A7EA414CF933100191795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA314CF933100191795 /* Foundation.framework */; };
 		489A7EA614CF933100191795 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489A7EA514CF933100191795 /* CoreGraphics.framework */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4853269715BC7C6900821A1D /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
 		489A7E9D14CF933100191795 /* VeryLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VeryLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		489A7EA114CF933100191795 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		489A7EA314CF933100191795 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -114,6 +116,7 @@
 				489A7ECC14CFA6DD00191795 /* icon_58.png */,
 				489A7ECD14CFA6DE00191795 /* icon_72.png */,
 				489A7ECE14CFA6DE00191795 /* icon_114.png */,
+				4853269715BC7C6900821A1D /* icon_144.png */,
 				489A7ECF14CFA6DE00191795 /* icon_512.png */,
 				489A7EC814CFA6DD00191795 /* icon_1024.png */,
 				489A7EA814CF933100191795 /* Supporting Files */,
@@ -194,6 +197,7 @@
 				489A7ED514CFA6DE00191795 /* icon_72.png in Resources */,
 				489A7ED614CFA6DE00191795 /* icon_114.png in Resources */,
 				489A7ED714CFA6DE00191795 /* icon_512.png in Resources */,
+				4853269815BC7C6900821A1D /* icon_144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +320,7 @@
 				489A7EBD14CF933100191795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
